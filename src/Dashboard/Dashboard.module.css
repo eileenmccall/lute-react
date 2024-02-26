@@ -1,0 +1,19 @@
+.table {
+    width: 100%;
+    border-spacing: 0;
+    border-collapse: separate;
+    text-align: center;
+}
+
+.th {
+    padding: 10px;
+    border-bottom: 1px solid rgba(0,0,0,0.3);
+}
+
+.bodyRow:nth-child(odd) {
+    background-color: rgba(32, 156, 238, 0.1)
+}
+
+.td {
+    padding: 10px;
+}

@@ -1,0 +1,38 @@
+.form {
+    max-width: 80%;
+}
+
+.form div {
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.form div label {
+    flex-basis: 244px;
+    flex-shrink: 0;
+}
+
+.form div input:not([type="file"]),
+.form div textarea {
+    flex-grow: 1;
+    padding: 5px;
+    border-radius: 3px;
+    border: 1px solid #ddd;
+}
+
+.form div textarea {
+    height: 420px; /* nice */
+}
+
+.form div select {
+    padding: 5px;
+}
+
+.fileType {
+    font-style: italic;
+}
+
+.buttonContainer {
+    display: flex;
+    gap: 5px;
+}

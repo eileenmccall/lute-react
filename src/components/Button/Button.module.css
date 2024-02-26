@@ -1,0 +1,26 @@
+.button {
+    padding: 10px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.primary {
+    composes: button;
+    background-color: rgba(32, 156, 238);
+    color: white;
+}
+
+.primary:hover {
+    background-color: rgb(23, 100, 152);
+}
+
+.danger {
+    composes: button;
+    background-color: red;
+    color: white;
+}
+
+.danger:hover {
+    background-color: rgb(163, 11, 11);
+}

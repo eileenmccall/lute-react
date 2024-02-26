@@ -1,0 +1,49 @@
+.barsContainer {
+    display: flex;
+    gap: 1px;
+    background-color: #787878;
+    border: 1px solid #787878;
+    border-radius: 3px;
+    width: 100%;
+}
+
+.bar {
+    display: inline-flex;
+    height: 0.7rem;
+    filter: saturate(2.4) brightness(0.95);
+}
+
+.new {
+    composes: bar;
+    background-color: var(--statusNewColor);
+}
+
+.levelOne {
+    composes: bar;
+    background-color: var(--statusOneColor);
+}
+
+.levelTwo {
+    composes: bar;
+    background-color: var(--statusTwoColor);
+}
+
+.levelThree {
+    composes: bar;
+    background-color: var(--statusThreeColor);
+}
+
+.levelFour {
+    composes: bar;
+    background-color: var(--statusFourColor);
+}
+
+.levelFive {
+    composes: bar;
+    background-color: var(--statusFiveColor);
+}
+
+.known {
+    composes: bar;
+    background-color: var(--statusKnownColor);
+}

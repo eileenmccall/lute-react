@@ -1,0 +1,11 @@
+.container {
+    border: 1px solid black;
+    padding: 3px;
+    display: flex;
+}
+
+.input {
+    flex-grow: 1;
+    padding: 4px;
+    border: none;
+}

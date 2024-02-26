@@ -1,0 +1,36 @@
+.nav {
+    display: flex;
+    justify-content: space-between;
+    margin: 1.7rem 0;
+}
+
+.navList {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    justify-content: space-between;
+    gap: 2.2rem;
+}
+
+.navItem {
+    position: relative;
+    text-transform: uppercase;
+}
+
+.submenu {
+    background-color: white;
+    border: 1px solid #ccc;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    display: inline-block;
+    left: 0;
+    list-style: none;
+    position: absolute;
+    text-transform: capitalize;
+    top: 18px;
+    z-index: 1;
+}
+
+.submenuItem {
+    padding: 10px;
+    white-space: nowrap;
+}
