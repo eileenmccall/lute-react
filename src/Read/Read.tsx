@@ -1,5 +1,6 @@
 import TextItem from "@/interfaces/TextItem";
 import TextRenderer from "./TextRenderer/TextRenderer";
+import NavBar from "@/components/NavBar/NavBar";
 
 export default function Read() {
 
@@ -63,6 +64,7 @@ export default function Read() {
 
     return (
         <>
+            <NavBar />
             <TextRenderer elementsArr={elements} />
         </>
     );

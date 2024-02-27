@@ -4,6 +4,7 @@ import './index.css'
 import { RouterProvider, createBrowserRouter } from 'react-router-dom'
 import Dashboard from './Dashboard/Dashboard.tsx'
 import NewBookPage from './Book/New/NewBook.tsx'
+import Read from './Read/Read.tsx'
 
 var router = createBrowserRouter([
   {
@@ -13,6 +14,10 @@ var router = createBrowserRouter([
   {
     path: "/book/new",
     element: <NewBookPage />
+  },
+  {
+    path: "/read",
+    element: <Read />
   }
 ]);
 
