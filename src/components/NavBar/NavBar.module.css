@@ -24,6 +24,7 @@
     display: inline-block;
     left: 0;
     list-style: none;
+    padding: 0;
     position: absolute;
     text-transform: capitalize;
     top: 18px;

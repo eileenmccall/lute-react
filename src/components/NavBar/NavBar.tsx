@@ -11,7 +11,7 @@ export default function NavBar() {
 
     return (
         <nav className={styles.nav}>
-            <h1>Lute</h1>
+            <h1><Link to="/">Lute</Link></h1>
             <ul className={styles.navList}>
                 <li className={styles.navItem}
                     onMouseEnter={handleBooksMenuHover}
